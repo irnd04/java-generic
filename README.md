@@ -31,6 +31,8 @@ public class RawType {
 * 공변/불공변
 * BoundedType
   * read는 extends, write는 super
+  * ?는 ? extends Object와 동일하다.
+  * `T super SuperClassName`은 불가능하다.
 * Type Erasure
 ```
 자바 컴파일러는 컴파일 과정에서 제네릭에 대한 타입소거를 진행.
