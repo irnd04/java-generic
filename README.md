@@ -38,4 +38,6 @@ public class RawType {
 과거 제네릭이 없던 버전과의 하위 호환성을 위함.
 ```
 
-https://vagabond95.me/posts/generic-guide/
+### 참고
+* http://www.yes24.com/Product/Goods/65551284
+* https://vagabond95.me/posts/generic-guide/
