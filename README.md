@@ -30,14 +30,14 @@ public class RawType {
 ```
 * 공변/불공변
 * BoundedType
-  * extends
+  * `? extends ClassName`
     * read할때 사용한다.
     * write는 null밖에 할 수 없다. 
-  * super
+  * `? super ClassName`
     * write할때 사용한다.
     * read type은 Object이다.
   * `?`는 `? extends Object`와 동일하다.
-  * `T super SuperClassName`은 불가능하다.
+  * `T super ClassName`은 불가능하다.
 * Type Erasure
 ```
 자바 컴파일러는 컴파일 과정에서 제네릭에 대한 타입소거를 진행.
