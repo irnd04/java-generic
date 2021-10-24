@@ -48,3 +48,4 @@ public class RawType {
 ### 참고
 * http://www.yes24.com/Product/Goods/65551284
 * https://vagabond95.me/posts/generic-guide/
+* https://futurecreator.github.io/2018/08/12/java-generics/
