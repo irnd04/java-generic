@@ -30,8 +30,13 @@ public class RawType {
 ```
 * 공변/불공변
 * BoundedType
-  * read는 extends, write는 super
-  * ?는 ? extends Object와 동일하다.
+  * extends
+   * read할때 사용한다.
+   * write는 null밖에 할 수 없다. 
+  * super
+   * write할때 사용한다.
+   * read type은 Object이다.
+  * `?`는 `? extends Object`와 동일하다.
   * `T super SuperClassName`은 불가능하다.
 * Type Erasure
 ```
